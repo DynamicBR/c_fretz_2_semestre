@@ -1,0 +1,13 @@
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex1.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex2.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex3.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex4.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex5.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex6.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex7.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex8.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex9.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex10.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex11.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/rebuild_cache.dir

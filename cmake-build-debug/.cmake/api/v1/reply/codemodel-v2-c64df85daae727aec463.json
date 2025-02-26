@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SegundoSemestre",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex1-Debug-35a30a67fe6ac4e3ff5d.json",
+					"name" : "Ex1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex10-Debug-1d3e88a9362650709745.json",
+					"name" : "Ex10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex11-Debug-1ca93d6cee56deca8b29.json",
+					"name" : "Ex11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex2-Debug-000da220c5ac379f2b11.json",
+					"name" : "Ex2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex3-Debug-3af090e0168f9b0aef39.json",
+					"name" : "Ex3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex4-Debug-f347aa230541b7f530a6.json",
+					"name" : "Ex4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex5-Debug-ccc91859d00ec097def6.json",
+					"name" : "Ex5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex6-Debug-2100b5de5293ce3cae19.json",
+					"name" : "Ex6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex7-Debug-ee6b3a820ef7210ef131.json",
+					"name" : "Ex7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex8-Debug-67de973b0d482bc1c1d3.json",
+					"name" : "Ex8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex9-Debug-7aaae1b21018e9bd85bf.json",
+					"name" : "Ex9",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/dmitr/Documents/Fatec/Programa\u00e7\u00e3o/C/SegundoSemestre/cmake-build-debug",
+		"source" : "C:/Users/dmitr/Documents/Fatec/Programa\u00e7\u00e3o/C/SegundoSemestre"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
