@@ -9,8 +9,13 @@ int main() {
 
   Pilha x = desempilha(P);
   printf("%d\n", x);
+
   Pilha y = desempilha(P);
   printf("%d\n", y);
 
+  Pilha z = desempilha(P);
+  printf("%d\n", z);
+
+  return 0;
 }
 
