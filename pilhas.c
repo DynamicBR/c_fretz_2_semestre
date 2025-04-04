@@ -16,6 +16,12 @@ int main() {
   Pilha z = desempilha(P);
   printf("%d\n", z);
 
+  empilha(4, P);
+  empilha(5, P);
+
+  Pilha t = topo(P);
+  printf("%d\n", t);
+
   return 0;
 }
 

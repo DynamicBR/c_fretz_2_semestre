@@ -55,6 +55,54 @@ build CMakeFiles/Ex1.dir/ex1.c.obj: C_COMPILER__Ex1_unscanned_Debug C$:/Users/dm
   OBJECT_DIR = CMakeFiles\Ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\Ex1.dir
 
+build CMakeFiles/Ex1.dir/ex12.c.obj: C_COMPILER__Ex1_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex12.c || cmake_object_order_depends_target_Ex1
+  DEP_FILE = CMakeFiles\Ex1.dir\ex12.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex1.dir
+
+build CMakeFiles/Ex1.dir/ex13.c.obj: C_COMPILER__Ex1_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex13.c || cmake_object_order_depends_target_Ex1
+  DEP_FILE = CMakeFiles\Ex1.dir\ex13.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex1.dir
+
+build CMakeFiles/Ex1.dir/ex14.c.obj: C_COMPILER__Ex1_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex14.c || cmake_object_order_depends_target_Ex1
+  DEP_FILE = CMakeFiles\Ex1.dir\ex14.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex1.dir
+
+build CMakeFiles/Ex1.dir/ex15.c.obj: C_COMPILER__Ex1_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex15.c || cmake_object_order_depends_target_Ex1
+  DEP_FILE = CMakeFiles\Ex1.dir\ex15.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex1.dir
+
+build CMakeFiles/Ex1.dir/ex16.c.obj: C_COMPILER__Ex1_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex16.c || cmake_object_order_depends_target_Ex1
+  DEP_FILE = CMakeFiles\Ex1.dir\ex16.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex1.dir
+
+build CMakeFiles/Ex1.dir/ex17.c.obj: C_COMPILER__Ex1_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex17.c || cmake_object_order_depends_target_Ex1
+  DEP_FILE = CMakeFiles\Ex1.dir\ex17.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex1.dir
+
+build CMakeFiles/Ex1.dir/ex18.c.obj: C_COMPILER__Ex1_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex18.c || cmake_object_order_depends_target_Ex1
+  DEP_FILE = CMakeFiles\Ex1.dir\ex18.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex1.dir
+
+build CMakeFiles/Ex1.dir/ex19.c.obj: C_COMPILER__Ex1_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex19.c || cmake_object_order_depends_target_Ex1
+  DEP_FILE = CMakeFiles\Ex1.dir\ex19.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ex1
@@ -63,7 +111,7 @@ build CMakeFiles/Ex1.dir/ex1.c.obj: C_COMPILER__Ex1_unscanned_Debug C$:/Users/dm
 #############################################
 # Link the executable Ex1.exe
 
-build Ex1.exe: C_EXECUTABLE_LINKER__Ex1_Debug CMakeFiles/Ex1.dir/ex1.c.obj
+build Ex1.exe: C_EXECUTABLE_LINKER__Ex1_Debug CMakeFiles/Ex1.dir/ex1.c.obj CMakeFiles/Ex1.dir/ex12.c.obj CMakeFiles/Ex1.dir/ex13.c.obj CMakeFiles/Ex1.dir/ex14.c.obj CMakeFiles/Ex1.dir/ex15.c.obj CMakeFiles/Ex1.dir/ex16.c.obj CMakeFiles/Ex1.dir/ex17.c.obj CMakeFiles/Ex1.dir/ex18.c.obj CMakeFiles/Ex1.dir/ex19.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ex1.dir
@@ -403,6 +451,204 @@ build Ex11.exe: C_EXECUTABLE_LINKER__Ex11_Debug CMakeFiles/Ex11.dir/ex11.c.obj
   TARGET_IMPLIB = libEx11.dll.a
   TARGET_PDB = Ex11.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Ex12
+
+
+#############################################
+# Order-only phony target for Ex12
+
+build cmake_object_order_depends_target_Ex12: phony || .
+
+build CMakeFiles/Ex12.dir/ex12.c.obj: C_COMPILER__Ex12_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex12.c || cmake_object_order_depends_target_Ex12
+  DEP_FILE = CMakeFiles\Ex12.dir\ex12.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex12.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex12.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ex12
+
+
+#############################################
+# Link the executable Ex12.exe
+
+build Ex12.exe: C_EXECUTABLE_LINKER__Ex12_Debug CMakeFiles/Ex12.dir/ex12.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ex12.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ex12.exe
+  TARGET_IMPLIB = libEx12.dll.a
+  TARGET_PDB = Ex12.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ex13
+
+
+#############################################
+# Order-only phony target for Ex13
+
+build cmake_object_order_depends_target_Ex13: phony || .
+
+build CMakeFiles/Ex13.dir/ex13.c.obj: C_COMPILER__Ex13_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex13.c || cmake_object_order_depends_target_Ex13
+  DEP_FILE = CMakeFiles\Ex13.dir\ex13.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex13.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex13.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ex13
+
+
+#############################################
+# Link the executable Ex13.exe
+
+build Ex13.exe: C_EXECUTABLE_LINKER__Ex13_Debug CMakeFiles/Ex13.dir/ex13.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ex13.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ex13.exe
+  TARGET_IMPLIB = libEx13.dll.a
+  TARGET_PDB = Ex13.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ex14
+
+
+#############################################
+# Order-only phony target for Ex14
+
+build cmake_object_order_depends_target_Ex14: phony || .
+
+build CMakeFiles/Ex14.dir/ex14.c.obj: C_COMPILER__Ex14_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex14.c || cmake_object_order_depends_target_Ex14
+  DEP_FILE = CMakeFiles\Ex14.dir\ex14.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex14.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex14.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ex14
+
+
+#############################################
+# Link the executable Ex14.exe
+
+build Ex14.exe: C_EXECUTABLE_LINKER__Ex14_Debug CMakeFiles/Ex14.dir/ex14.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ex14.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ex14.exe
+  TARGET_IMPLIB = libEx14.dll.a
+  TARGET_PDB = Ex14.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ex15
+
+
+#############################################
+# Order-only phony target for Ex15
+
+build cmake_object_order_depends_target_Ex15: phony || .
+
+build CMakeFiles/Ex15.dir/ex15.c.obj: C_COMPILER__Ex15_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex15.c || cmake_object_order_depends_target_Ex15
+  DEP_FILE = CMakeFiles\Ex15.dir\ex15.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex15.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex15.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ex15
+
+
+#############################################
+# Link the executable Ex15.exe
+
+build Ex15.exe: C_EXECUTABLE_LINKER__Ex15_Debug CMakeFiles/Ex15.dir/ex15.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ex15.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ex15.exe
+  TARGET_IMPLIB = libEx15.dll.a
+  TARGET_PDB = Ex15.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex16
+
+
+#############################################
+# Order-only phony target for ex16
+
+build cmake_object_order_depends_target_ex16: phony || .
+
+build CMakeFiles/ex16.dir/ex16.c.obj: C_COMPILER__ex16_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex16.c || cmake_object_order_depends_target_ex16
+  DEP_FILE = CMakeFiles\ex16.dir\ex16.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ex16.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex16.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex16
+
+
+#############################################
+# Link the executable ex16.exe
+
+build ex16.exe: C_EXECUTABLE_LINKER__ex16_Debug CMakeFiles/ex16.dir/ex16.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ex16.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ex16.exe
+  TARGET_IMPLIB = libex16.dll.a
+  TARGET_PDB = ex16.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Pilhas
+
+
+#############################################
+# Order-only phony target for Pilhas
+
+build cmake_object_order_depends_target_Pilhas: phony || .
+
+build CMakeFiles/Pilhas.dir/pilhas.c.obj: C_COMPILER__Pilhas_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/pilhas.c || cmake_object_order_depends_target_Pilhas
+  DEP_FILE = CMakeFiles\Pilhas.dir\pilhas.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pilhas.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pilhas.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pilhas
+
+
+#############################################
+# Link the executable Pilhas.exe
+
+build Pilhas.exe: C_EXECUTABLE_LINKER__Pilhas_Debug CMakeFiles/Pilhas.dir/pilhas.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Pilhas.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Pilhas.exe
+  TARGET_IMPLIB = libPilhas.dll.a
+  TARGET_PDB = Pilhas.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -435,6 +681,14 @@ build Ex10: phony Ex10.exe
 
 build Ex11: phony Ex11.exe
 
+build Ex12: phony Ex12.exe
+
+build Ex13: phony Ex13.exe
+
+build Ex14: phony Ex14.exe
+
+build Ex15: phony Ex15.exe
+
 build Ex2: phony Ex2.exe
 
 build Ex3: phony Ex3.exe
@@ -451,6 +705,10 @@ build Ex8: phony Ex8.exe
 
 build Ex9: phony Ex9.exe
 
+build Pilhas: phony Pilhas.exe
+
+build ex16: phony ex16.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -459,7 +717,7 @@ build Ex9: phony Ex9.exe
 #############################################
 # Folder: C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug
 
-build all: phony Ex1.exe Ex2.exe Ex3.exe Ex4.exe Ex5.exe Ex6.exe Ex7.exe Ex8.exe Ex9.exe Ex10.exe Ex11.exe
+build all: phony Ex1.exe Ex2.exe Ex3.exe Ex4.exe Ex5.exe Ex6.exe Ex7.exe Ex8.exe Ex9.exe Ex10.exe Ex11.exe Ex12.exe Ex13.exe Ex14.exe Ex15.exe ex16.exe Pilhas.exe
 
 # =============================================================================
 # Built-in targets
