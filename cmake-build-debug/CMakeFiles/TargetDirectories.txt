@@ -14,6 +14,12 @@ C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug
 C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex14.dir
 C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex15.dir
 C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/ex16.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex17.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex18.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex19.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex20.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex21.dir
+C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Ex22.dir
 C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/Pilhas.dir
 C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug/CMakeFiles/rebuild_cache.dir

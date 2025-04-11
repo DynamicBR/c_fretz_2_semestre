@@ -103,6 +103,24 @@ build CMakeFiles/Ex1.dir/ex19.c.obj: C_COMPILER__Ex1_unscanned_Debug C$:/Users/d
   OBJECT_DIR = CMakeFiles\Ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\Ex1.dir
 
+build CMakeFiles/Ex1.dir/ex20.c.obj: C_COMPILER__Ex1_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex20.c || cmake_object_order_depends_target_Ex1
+  DEP_FILE = CMakeFiles\Ex1.dir\ex20.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex1.dir
+
+build CMakeFiles/Ex1.dir/ex21.c.obj: C_COMPILER__Ex1_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex21.c || cmake_object_order_depends_target_Ex1
+  DEP_FILE = CMakeFiles\Ex1.dir\ex21.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex1.dir
+
+build CMakeFiles/Ex1.dir/ex22.c.obj: C_COMPILER__Ex1_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex22.c || cmake_object_order_depends_target_Ex1
+  DEP_FILE = CMakeFiles\Ex1.dir\ex22.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ex1
@@ -111,7 +129,7 @@ build CMakeFiles/Ex1.dir/ex19.c.obj: C_COMPILER__Ex1_unscanned_Debug C$:/Users/d
 #############################################
 # Link the executable Ex1.exe
 
-build Ex1.exe: C_EXECUTABLE_LINKER__Ex1_Debug CMakeFiles/Ex1.dir/ex1.c.obj CMakeFiles/Ex1.dir/ex12.c.obj CMakeFiles/Ex1.dir/ex13.c.obj CMakeFiles/Ex1.dir/ex14.c.obj CMakeFiles/Ex1.dir/ex15.c.obj CMakeFiles/Ex1.dir/ex16.c.obj CMakeFiles/Ex1.dir/ex17.c.obj CMakeFiles/Ex1.dir/ex18.c.obj CMakeFiles/Ex1.dir/ex19.c.obj
+build Ex1.exe: C_EXECUTABLE_LINKER__Ex1_Debug CMakeFiles/Ex1.dir/ex1.c.obj CMakeFiles/Ex1.dir/ex12.c.obj CMakeFiles/Ex1.dir/ex13.c.obj CMakeFiles/Ex1.dir/ex14.c.obj CMakeFiles/Ex1.dir/ex15.c.obj CMakeFiles/Ex1.dir/ex16.c.obj CMakeFiles/Ex1.dir/ex17.c.obj CMakeFiles/Ex1.dir/ex18.c.obj CMakeFiles/Ex1.dir/ex19.c.obj CMakeFiles/Ex1.dir/ex20.c.obj CMakeFiles/Ex1.dir/ex21.c.obj CMakeFiles/Ex1.dir/ex22.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ex1.dir
@@ -617,6 +635,204 @@ build ex16.exe: C_EXECUTABLE_LINKER__ex16_Debug CMakeFiles/ex16.dir/ex16.c.obj
   TARGET_PDB = ex16.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Ex17
+
+
+#############################################
+# Order-only phony target for Ex17
+
+build cmake_object_order_depends_target_Ex17: phony || .
+
+build CMakeFiles/Ex17.dir/ex17.c.obj: C_COMPILER__Ex17_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex17.c || cmake_object_order_depends_target_Ex17
+  DEP_FILE = CMakeFiles\Ex17.dir\ex17.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex17.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex17.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ex17
+
+
+#############################################
+# Link the executable Ex17.exe
+
+build Ex17.exe: C_EXECUTABLE_LINKER__Ex17_Debug CMakeFiles/Ex17.dir/ex17.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ex17.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ex17.exe
+  TARGET_IMPLIB = libEx17.dll.a
+  TARGET_PDB = Ex17.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ex18
+
+
+#############################################
+# Order-only phony target for Ex18
+
+build cmake_object_order_depends_target_Ex18: phony || .
+
+build CMakeFiles/Ex18.dir/ex18.c.obj: C_COMPILER__Ex18_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex18.c || cmake_object_order_depends_target_Ex18
+  DEP_FILE = CMakeFiles\Ex18.dir\ex18.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex18.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex18.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ex18
+
+
+#############################################
+# Link the executable Ex18.exe
+
+build Ex18.exe: C_EXECUTABLE_LINKER__Ex18_Debug CMakeFiles/Ex18.dir/ex18.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ex18.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ex18.exe
+  TARGET_IMPLIB = libEx18.dll.a
+  TARGET_PDB = Ex18.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ex19
+
+
+#############################################
+# Order-only phony target for Ex19
+
+build cmake_object_order_depends_target_Ex19: phony || .
+
+build CMakeFiles/Ex19.dir/ex19.c.obj: C_COMPILER__Ex19_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex19.c || cmake_object_order_depends_target_Ex19
+  DEP_FILE = CMakeFiles\Ex19.dir\ex19.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex19.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex19.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ex19
+
+
+#############################################
+# Link the executable Ex19.exe
+
+build Ex19.exe: C_EXECUTABLE_LINKER__Ex19_Debug CMakeFiles/Ex19.dir/ex19.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ex19.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ex19.exe
+  TARGET_IMPLIB = libEx19.dll.a
+  TARGET_PDB = Ex19.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ex20
+
+
+#############################################
+# Order-only phony target for Ex20
+
+build cmake_object_order_depends_target_Ex20: phony || .
+
+build CMakeFiles/Ex20.dir/ex20.c.obj: C_COMPILER__Ex20_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex20.c || cmake_object_order_depends_target_Ex20
+  DEP_FILE = CMakeFiles\Ex20.dir\ex20.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex20.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex20.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ex20
+
+
+#############################################
+# Link the executable Ex20.exe
+
+build Ex20.exe: C_EXECUTABLE_LINKER__Ex20_Debug CMakeFiles/Ex20.dir/ex20.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ex20.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ex20.exe
+  TARGET_IMPLIB = libEx20.dll.a
+  TARGET_PDB = Ex20.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ex21
+
+
+#############################################
+# Order-only phony target for Ex21
+
+build cmake_object_order_depends_target_Ex21: phony || .
+
+build CMakeFiles/Ex21.dir/ex21.c.obj: C_COMPILER__Ex21_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex21.c || cmake_object_order_depends_target_Ex21
+  DEP_FILE = CMakeFiles\Ex21.dir\ex21.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex21.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex21.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ex21
+
+
+#############################################
+# Link the executable Ex21.exe
+
+build Ex21.exe: C_EXECUTABLE_LINKER__Ex21_Debug CMakeFiles/Ex21.dir/ex21.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ex21.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ex21.exe
+  TARGET_IMPLIB = libEx21.dll.a
+  TARGET_PDB = Ex21.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ex22
+
+
+#############################################
+# Order-only phony target for Ex22
+
+build cmake_object_order_depends_target_Ex22: phony || .
+
+build CMakeFiles/Ex22.dir/ex22.c.obj: C_COMPILER__Ex22_unscanned_Debug C$:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/ex22.c || cmake_object_order_depends_target_Ex22
+  DEP_FILE = CMakeFiles\Ex22.dir\ex22.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ex22.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex22.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ex22
+
+
+#############################################
+# Link the executable Ex22.exe
+
+build Ex22.exe: C_EXECUTABLE_LINKER__Ex22_Debug CMakeFiles/Ex22.dir/ex22.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ex22.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ex22.exe
+  TARGET_IMPLIB = libEx22.dll.a
+  TARGET_PDB = Ex22.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Pilhas
 
 
@@ -689,7 +905,19 @@ build Ex14: phony Ex14.exe
 
 build Ex15: phony Ex15.exe
 
+build Ex17: phony Ex17.exe
+
+build Ex18: phony Ex18.exe
+
+build Ex19: phony Ex19.exe
+
 build Ex2: phony Ex2.exe
+
+build Ex20: phony Ex20.exe
+
+build Ex21: phony Ex21.exe
+
+build Ex22: phony Ex22.exe
 
 build Ex3: phony Ex3.exe
 
@@ -717,7 +945,7 @@ build ex16: phony ex16.exe
 #############################################
 # Folder: C:/Users/dmitr/Documents/Fatec/Programação/C/SegundoSemestre/cmake-build-debug
 
-build all: phony Ex1.exe Ex2.exe Ex3.exe Ex4.exe Ex5.exe Ex6.exe Ex7.exe Ex8.exe Ex9.exe Ex10.exe Ex11.exe Ex12.exe Ex13.exe Ex14.exe Ex15.exe ex16.exe Pilhas.exe
+build all: phony Ex1.exe Ex2.exe Ex3.exe Ex4.exe Ex5.exe Ex6.exe Ex7.exe Ex8.exe Ex9.exe Ex10.exe Ex11.exe Ex12.exe Ex13.exe Ex14.exe Ex15.exe ex16.exe Ex17.exe Ex18.exe Ex19.exe Ex20.exe Ex21.exe Ex22.exe Pilhas.exe
 
 # =============================================================================
 # Built-in targets

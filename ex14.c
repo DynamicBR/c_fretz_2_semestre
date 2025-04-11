@@ -3,79 +3,66 @@
 #include <string.h>
 #include "pilha.h"
 
+#define MAX_STR 1000
+
+void inverte_palavra(char *palavra) {
+    int len = strlen(palavra);
+    Pilha P = pilha(len);  // Cria pilha com tamanho igual ao da palavra
+
+    // Empilha cada caractere da palavra
+    for (int i = 0; i < len; i++) {
+        empilha(palavra[i], P);
+    }
+
+    // Desempilha para obter a palavra invertida
+    for (int i = 0; i < len; i++) {
+        palavra[i] = desempilha(P);
+    }
+
+    // Libera a memória da pilha
+    destroip(&P);
+}
+
 int main() {
-    Pilha A = pilha(100);
-    Pilha B = pilha(100);
-    Pilha C = pilha(100);
-    char entrada[10];
-    int numero;
-    int temp;
-    int x;
+    char frase[MAX_STR];
+    char palavra[MAX_STR];
+    int i, j;
 
-    while (1) {
-        printf("Digite um numero (ou digite 'N' para parar): ");
-        scanf("%s", entrada);
+    printf("Digite uma frase: ");
 
+    // Captura a entrada do usuário (uma linha inteira)
+    fgets(frase, MAX_STR, stdin);
 
-        if (strcmp(entrada, "N") == 0 || strcmp(entrada, "n") == 0) {
-            break;
-        }
-
-
-        numero = atoi(entrada);
-        if (numero == 0 && entrada[0] != '0') {
-            printf("Entrada invalida! Digite um numero ou 'N' para parar.\n");
-        } else {
-            empilha(numero, A);
-        }
+    // Remove o caractere de nova linha se presente
+    if (frase[strlen(frase) - 1] == '\n') {
+        frase[strlen(frase) - 1] = '\0';
     }
 
-    printf("Sua pilha na ordem de entrada \n");
-    while(!vaziap(A)) {
-        int mostrar_pilha =desempilha(A);
-        empilha(mostrar_pilha, C);
-        printf("%d\n", mostrar_pilha);
-    }
+    printf("Resultado: ");
 
-    while(!vaziap(C)) {
-        empilha(desempilha(C), A);
-    }
-    destroip(&C);
-
-
-
-    while (!vaziap(A)) {
-        temp = topo(A);
-        desempilha(A);
-        while (!vaziap(B) && topo(B) < temp)  {
-            empilha(desempilha(B), A);
-
-
+    // Processa a frase palavra por palavra
+    i = 0;
+    while (i < strlen(frase)) {
+        // Pula espaços em branco
+        while (frase[i] == ' ' && i < strlen(frase)) {
+            printf(" ");
+            i++;
         }
 
-        empilha(temp, B);
-    }
-    int duplicata = 0;
-    int ultimo_empilhado = -1;
-
-    while(!vaziap(B)) {
-        int verifica_num = desempilha(B);
-        if (verifica_num == ultimo_empilhado) {
-            duplicata = 1;
-        } else {
-            duplicata = 0;
-            ultimo_empilhado = verifica_num;
+        // Extrai a próxima palavra
+        j = 0;
+        while (frase[i] != ' ' && frase[i] != '\0') {
+            palavra[j++] = frase[i++];
         }
-        if (duplicata == 0) {
-            empilha(verifica_num, A);
+        palavra[j] = '\0';  // Finaliza a string
+
+        // Se extraiu uma palavra (j > 0), inverte-a e imprime
+        if (j > 0) {
+            inverte_palavra(palavra);
+            printf("%s", palavra);
         }
     }
-
 
     printf("\n");
-    printf("Sua pilha em ordem decrescente e sem valor duplicado e : \n");
-    while (!vaziap(A)) {
-        x = desempilha(A);
-        printf("%d\n", x);
-    }
+    return 0;
 }

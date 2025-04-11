@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SegundoSemestre",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex1-Debug-dca8bc45c002938d2788.json",
+					"name" : "Ex1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex10-Debug-a157bf609da3aa30a67b.json",
+					"name" : "Ex10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex11-Debug-0a6e85f135891d6ad59a.json",
+					"name" : "Ex11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex12-Debug-fd37ff6743a650a37828.json",
+					"name" : "Ex12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex13::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex13-Debug-d1da74d1e2771e64bebc.json",
+					"name" : "Ex13",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex14::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex14-Debug-f4e006f52d2343df19e3.json",
+					"name" : "Ex14",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex15::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex15-Debug-bd8dde93a3f089de14b8.json",
+					"name" : "Ex15",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex17::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex17-Debug-153f862f195145d59e04.json",
+					"name" : "Ex17",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex18::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex18-Debug-593ad9e9c564b72445a8.json",
+					"name" : "Ex18",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex19::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex19-Debug-a32288bfa244fbbd6aef.json",
+					"name" : "Ex19",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex2-Debug-d0cda88d9edc13d90433.json",
+					"name" : "Ex2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex20::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex20-Debug-09e46b129f935c041aca.json",
+					"name" : "Ex20",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex21::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex21-Debug-27c15bfa9b2572e753a0.json",
+					"name" : "Ex21",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex22::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex22-Debug-fb0eb6ae789b2d4be8ab.json",
+					"name" : "Ex22",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex3-Debug-db65d3a2039a2b9a2ef3.json",
+					"name" : "Ex3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex4-Debug-4d835b9d2e54498b4911.json",
+					"name" : "Ex4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex5-Debug-2a0dd11877027a318d39.json",
+					"name" : "Ex5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex6-Debug-377b43f614911d6dea03.json",
+					"name" : "Ex6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex7-Debug-62352963aeab3bffa8d7.json",
+					"name" : "Ex7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex8-Debug-4d1fe48da62365959ac1.json",
+					"name" : "Ex8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex9-Debug-888f325b15a1afbc035d.json",
+					"name" : "Ex9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Pilhas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Pilhas-Debug-73432b1bb6c0a9723440.json",
+					"name" : "Pilhas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex16-Debug-9e23353a815aef7a3234.json",
+					"name" : "ex16",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/dmitr/Documents/Fatec/Programa\u00e7\u00e3o/C/SegundoSemestre/cmake-build-debug",
+		"source" : "C:/Users/dmitr/Documents/Fatec/Programa\u00e7\u00e3o/C/SegundoSemestre"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

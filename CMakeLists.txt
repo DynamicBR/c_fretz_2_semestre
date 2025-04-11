@@ -13,7 +13,11 @@ add_executable(Ex1 ex1.c
         fila.h
         ex17.c
         ex18.c
-        ex19.c)
+        ex19.c
+        ex20.c
+        ex21.c
+        ex22.c
+)
 
 add_executable(Ex2 ex2.c)
 
@@ -50,6 +54,12 @@ add_executable(Ex17 ex17.c)
 add_executable(Ex18 ex18.c)
 
 add_executable(Ex19 ex19.c)
+
+add_executable(Ex20 ex20.c)
+
+add_executable(Ex21 ex21.c)
+
+add_executable(Ex22 ex22.c)
 
 add_executable(Pilhas pilhas.c
         pilha.h)

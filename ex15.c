@@ -1,9 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <windows.h>
 #include "pilha.h"
 
 int main() {
+	SetConsoleCP(CP_UTF8);
+	SetConsoleOutputCP(CP_UTF8);
+
     Pilha A = pilha(100);
     char str[100];
     char *letter_str;
@@ -11,7 +15,7 @@ int main() {
     char topo_pilha;
 
     // peço pro usuario para digitar uma cadeia de parenteses
-	printf("Diite uma cadeia de chave , Direi se está ou não balanceada Ex: {[]} > ");
+	printf("Digite uma cadeia de chave , Direi se está ou não balanceada Ex: {[]} > ");
 	fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = '\0';
 
